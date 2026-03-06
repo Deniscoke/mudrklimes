@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MUDr. Drahomír Klimeš | Praktický zubní lékař Praha 9 – Vysočany</title>
+    <meta name="description" content="MUDr. Drahomír Klimeš – praktický zubní lékař v Praze 9, Vysočany. Profesionální zubní péče, objednání po telefonické domluvě. Zavolejte +420 732 649 099.">
+    <meta name="robots" content="index, follow">
+
+    <meta property="og:title" content="MUDr. Drahomír Klimeš | Praktický zubní lékař Praha 9">
+    <meta property="og:description" content="Praktický zubní lékař v Praze 9 – Vysočany. Objednání po telefonické domluvě.">
+    <meta property="og:type" content="website">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Skip Navigation -->
+    <a href="#main-content" class="skip-link">Přeskočit na obsah</a>
+
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="header__inner">
+            <a href="#" class="header__logo">
+                <span class="header__logo-name">MUDr. Klimeš</span>
+                <span class="header__logo-sub">Praktický zubní lékař</span>
+            </a>
+
+            <nav class="header__nav" id="nav" aria-label="Hlavní navigace">
+                <ul class="header__nav-list">
+                    <li><a href="#o-ordinaci" class="header__nav-link">O ordinaci</a></li>
+                    <li><a href="#proc-nas" class="header__nav-link">Proč k nám</a></li>
+                    <li><a href="#informace" class="header__nav-link">Informace</a></li>
+                    <li><a href="#kontakt" class="header__nav-link">Kontakt</a></li>
+                </ul>
+            </nav>
+
+            <a href="tel:+420732649099" class="header__phone">
+                <i class="fas fa-phone" aria-hidden="true"></i>
+                <span>+420 732 649 099</span>
+            </a>
+
+            <button class="header__burger" id="burger" aria-label="Otevřít menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+        <nav aria-label="Mobilní navigace">
+            <ul class="mobile-menu__list">
+                <li><a href="#o-ordinaci" class="mobile-menu__link">O ordinaci</a></li>
+                <li><a href="#proc-nas" class="mobile-menu__link">Proč k nám</a></li>
+                <li><a href="#informace" class="mobile-menu__link">Informace</a></li>
+                <li><a href="#kontakt" class="mobile-menu__link">Kontakt</a></li>
+            </ul>
+            <div class="mobile-menu__cta">
+                <a href="tel:+420732649099" class="btn btn--primary btn--full">
+                    <i class="fas fa-phone" aria-hidden="true"></i> Zavolat
+                </a>
+                <a href="mailto:mudr.drahomir.klimes@gmail.com" class="btn btn--outline btn--full">
+                    <i class="fas fa-envelope" aria-hidden="true"></i> Napsat e-mail
+                </a>
+            </div>
+        </nav>
+    </div>
+
+    <!-- ======== HERO SLIDER ======== -->
+    <section id="hero" class="hero" aria-label="Úvodní prezentace">
+        <div class="swiper hero-slider">
+            <div class="swiper-wrapper">
+
+                <!-- Slide 1 -->
+                <div class="swiper-slide hero-slide hero-slide--1">
+                    <div class="hero-slide__overlay"></div>
+                    <div class="hero-slide__content">
+                        <span class="hero-slide__label">Praha 9 – Vysočany</span>
+                        <h1 class="hero-slide__title">Praktický zubní lékař<br>v&nbsp;Praze&nbsp;9</h1>
+                        <p class="hero-slide__text">MUDr. Drahomír Klimeš – profesionální zubní péče v&nbsp;klidném prostředí ordinace ve&nbsp;Vysočanech.</p>
+                        <div class="hero-slide__actions">
+                            <a href="tel:+420732649099" class="btn btn--primary btn--lg">
+                                <i class="fas fa-phone" aria-hidden="true"></i> Zavolat
+                            </a>
+                            <a href="#kontakt" class="btn btn--white btn--lg">Zobrazit kontakt</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 2 -->
+                <div class="swiper-slide hero-slide hero-slide--2">
+                    <div class="hero-slide__overlay"></div>
+                    <div class="hero-slide__content">
+                        <span class="hero-slide__label">Objednání</span>
+                        <h2 class="hero-slide__title">Objednání po<br>telefonické domluvě</h2>
+                        <p class="hero-slide__text">Zavolejte a společně najdeme termín, který vám vyhovuje.</p>
+                        <div class="hero-slide__actions">
+                            <a href="tel:+420732649099" class="btn btn--primary btn--lg">
+                                <i class="fas fa-phone" aria-hidden="true"></i> +420 732 649 099
+                            </a>
+                            <a href="mailto:mudr.drahomir.klimes@gmail.com" class="btn btn--white btn--lg">
+                                <i class="fas fa-envelope" aria-hidden="true"></i> Napsat e-mail
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 3 -->
+                <div class="swiper-slide hero-slide hero-slide--3">
+                    <div class="hero-slide__overlay"></div>
+                    <div class="hero-slide__content">
+                        <span class="hero-slide__label">Přístup</span>
+                        <h2 class="hero-slide__title">Klidný a&nbsp;profesionální<br>přístup</h2>
+                        <p class="hero-slide__text">Individuální péče a dostatek času pro každého pacienta.</p>
+                        <div class="hero-slide__actions">
+                            <a href="#o-ordinaci" class="btn btn--primary btn--lg">Více o ordinaci</a>
+                            <a href="#kontakt" class="btn btn--white btn--lg">Kontaktovat</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Hero bottom bar: arrows + progress -->
+            <div class="hero-bar">
+                <button class="hero-bar__arrow hero-bar__arrow--prev" aria-label="Předchozí snímek">
+                    <i class="fas fa-arrow-left" aria-hidden="true"></i>
+                </button>
+                <div class="hero-bar__progress">
+                    <div class="hero-bar__progress-track">
+                        <div class="hero-bar__progress-fill" id="hero-progress"></div>
+                    </div>
+                </div>
+                <button class="hero-bar__arrow hero-bar__arrow--next" aria-label="Další snímek">
+                    <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                </button>
+                <div class="hero-bar__counter">
+                    <span id="slide-current">01</span>
+                    <span class="hero-bar__sep">/</span>
+                    <span id="slide-total">03</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======== MAIN CONTENT ======== -->
+    <main id="main-content">
+
+        <!-- O ordinaci -->
+        <section id="o-ordinaci" class="section">
+            <div class="container">
+                <div class="section-head">
+                    <span class="section-head__label">O ordinaci</span>
+                    <h2 class="section-head__title">Zubní ordinace<br>ve&nbsp;Vysočanech</h2>
+                    <div class="section-head__line"></div>
+                </div>
+
+                <div class="about">
+                    <div class="about__text reveal">
+                        <p class="about__lead">Ordinace MUDr.&nbsp;Drahomíra Klimeše poskytuje praktickou zubní péči v&nbsp;Praze&nbsp;9&nbsp;–&nbsp;Vysočanech.</p>
+                        <p>Klademe důraz na individuální přístup, srozumitelnou komunikaci a&nbsp;klidné prostředí. Každému pacientovi je věnována pozornost a&nbsp;dostatek času.</p>
+                        <p>Objednání na vyšetření probíhá po telefonické domluvě. Zavolejte nám a&nbsp;společně najdeme vhodný termín.</p>
+                        <div class="about__buttons">
+                            <a href="tel:+420732649099" class="btn btn--primary">
+                                <i class="fas fa-phone" aria-hidden="true"></i> Zavolat
+                            </a>
+                            <a href="mailto:mudr.drahomir.klimes@gmail.com" class="btn btn--outline">
+                                <i class="fas fa-envelope" aria-hidden="true"></i> Napsat e-mail
+                            </a>
+                        </div>
+                    </div>
+                    <div class="about__image reveal">
+                        <!-- Replace src with local image: images/ordinace.jpg -->
+                        <img src="https://images.unsplash.com/photo-1629909615184-74f495363b67?auto=format&fit=crop&w=800&q=80"
+                             alt="Interiér zubní ordinace"
+                             loading="lazy" width="800" height="600">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Proč si vybrat -->
+        <section id="proc-nas" class="section section--alt">
+            <div class="container">
+                <div class="section-head">
+                    <span class="section-head__label">Proč k nám</span>
+                    <h2 class="section-head__title">Proč si vybrat<br>tuto ordinaci</h2>
+                    <div class="section-head__line"></div>
+                </div>
+
+                <div class="values">
+                    <article class="vcard reveal">
+                        <div class="vcard__icon"><i class="fas fa-user" aria-hidden="true"></i></div>
+                        <h3 class="vcard__title">Individuální přístup</h3>
+                        <p class="vcard__text">Každému pacientovi je věnována pozornost a&nbsp;dostatek času pro důkladné vyšetření.</p>
+                    </article>
+                    <article class="vcard reveal">
+                        <div class="vcard__icon"><i class="fas fa-comments" aria-hidden="true"></i></div>
+                        <h3 class="vcard__title">Přehledná komunikace</h3>
+                        <p class="vcard__text">Srozumitelné vysvětlení postupů a&nbsp;otevřený dialog s&nbsp;pacientem.</p>
+                    </article>
+                    <article class="vcard reveal">
+                        <div class="vcard__icon"><i class="fas fa-map-marker-alt" aria-hidden="true"></i></div>
+                        <h3 class="vcard__title">Dostupná lokalita</h3>
+                        <p class="vcard__text">Ordinace ve Vysočanech s&nbsp;dobrou dopravní dostupností v&nbsp;Praze&nbsp;9.</p>
+                    </article>
+                    <article class="vcard reveal">
+                        <div class="vcard__icon"><i class="fas fa-calendar-check" aria-hidden="true"></i></div>
+                        <h3 class="vcard__title">Objednání po domluvě</h3>
+                        <p class="vcard__text">Termín návštěvy si jednoduše domluvíte telefonicky na čísle ordinace.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Informace pro pacienty -->
+        <section id="informace" class="section">
+            <div class="container">
+                <div class="section-head">
+                    <span class="section-head__label">Pro pacienty</span>
+                    <h2 class="section-head__title">Základní informace</h2>
+                    <div class="section-head__line"></div>
+                </div>
+
+                <div class="info-grid">
+                    <div class="icard reveal">
+                        <div class="icard__icon"><i class="fas fa-location-dot" aria-hidden="true"></i></div>
+                        <h3 class="icard__title">Adresa ordinace</h3>
+                        <p>Poděbradská 221/3<br>190 00 Praha 9 – Vysočany</p>
+                        <p class="icard__note"><i class="fas fa-door-open" aria-hidden="true"></i> Vchod z&nbsp;vrátnice vedlejší budovy 179/1</p>
+                    </div>
+                    <div class="icard reveal">
+                        <div class="icard__icon"><i class="fas fa-clock" aria-hidden="true"></i></div>
+                        <h3 class="icard__title">Jak se objednat</h3>
+                        <p>Objednání na vyšetření probíhá po telefonické domluvě.</p>
+                        <a href="tel:+420732649099" class="icard__link">
+                            <i class="fas fa-phone" aria-hidden="true"></i> +420 732 649 099
+                        </a>
+                    </div>
+                    <div class="icard reveal">
+                        <div class="icard__icon"><i class="fas fa-envelope" aria-hidden="true"></i></div>
+                        <h3 class="icard__title">E-mailový kontakt</h3>
+                        <p>Pro dotazy můžete využít také e-mail.</p>
+                        <a href="mailto:mudr.drahomir.klimes@gmail.com" class="icard__link">
+                            <i class="fas fa-envelope" aria-hidden="true"></i> Napsat e-mail
+                        </a>
+                    </div>
+                    <div class="icard reveal">
+                        <div class="icard__icon"><i class="fas fa-train-subway" aria-hidden="true"></i></div>
+                        <h3 class="icard__title">Dopravní dostupnost</h3>
+                        <p>Ordinace se nachází v&nbsp;Praze&nbsp;9&nbsp;–&nbsp;Vysočanech, v&nbsp;blízkosti dopravních spojů.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Kontakt -->
+        <section id="kontakt" class="section section--dark">
+            <div class="container">
+                <div class="section-head section-head--light">
+                    <span class="section-head__label">Kontakt</span>
+                    <h2 class="section-head__title">Kontaktujte nás</h2>
+                    <div class="section-head__line"></div>
+                </div>
+
+                <div class="contact">
+                    <div class="contact__info reveal">
+                        <div class="contact__block">
+                            <h3 class="contact__name">MUDr. Drahomír Klimeš</h3>
+                            <p class="contact__role">Praktický zubní lékař</p>
+                        </div>
+
+                        <div class="contact__block">
+                            <div class="contact__row">
+                                <i class="fas fa-location-dot" aria-hidden="true"></i>
+                                <div>
+                                    <p>Poděbradská 221/3</p>
+                                    <p>190 00 Praha 9 – Vysočany</p>
+                                </div>
+                            </div>
+                            <div class="contact__row">
+                                <i class="fas fa-door-open" aria-hidden="true"></i>
+                                <p>Vchod z vrátnice vedlejší budovy 179/1</p>
+                            </div>
+                        </div>
+
+                        <div class="contact__block">
+                            <div class="contact__row">
+                                <i class="fas fa-phone" aria-hidden="true"></i>
+                                <a href="tel:+420732649099">+420 732 649 099</a>
+                            </div>
+                            <div class="contact__row">
+                                <i class="fas fa-envelope" aria-hidden="true"></i>
+                                <a href="mailto:mudr.drahomir.klimes@gmail.com">mudr.drahomir.klimes@gmail.com</a>
+                            </div>
+                        </div>
+
+                        <div class="contact__buttons">
+                            <a href="tel:+420732649099" class="btn btn--primary btn--lg">
+                                <i class="fas fa-phone" aria-hidden="true"></i> Zavolat
+                            </a>
+                            <a href="mailto:mudr.drahomir.klimes@gmail.com" class="btn btn--outline-light btn--lg">
+                                <i class="fas fa-envelope" aria-hidden="true"></i> Napsat e-mail
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="contact__map reveal">
+                        <!-- Replace with Google Maps iframe:
+                             <iframe src="https://www.google.com/maps/embed?pb=..." ...></iframe> -->
+                        <div class="map-placeholder" id="map">
+                            <i class="fas fa-map-marked-alt" aria-hidden="true"></i>
+                            <p>Poděbradská 221/3, Praha 9</p>
+                            <a href="https://maps.google.com/?q=Poděbradská+221/3,+Praha+9+Vysočany"
+                               target="_blank" rel="noopener noreferrer" class="btn btn--primary">
+                                <i class="fas fa-external-link-alt" aria-hidden="true"></i> Zobrazit na mapě
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__top">
+                <div class="footer__brand">
+                    <span class="footer__name">MUDr. Drahomír Klimeš</span>
+                    <span class="footer__sub">Praktický zubní lékař · Praha 9 – Vysočany</span>
+                </div>
+                <div class="footer__links">
+                    <a href="tel:+420732649099"><i class="fas fa-phone" aria-hidden="true"></i> +420 732 649 099</a>
+                    <a href="mailto:mudr.drahomir.klimes@gmail.com"><i class="fas fa-envelope" aria-hidden="true"></i> mudr.drahomir.klimes@gmail.com</a>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p>&copy; 2026 MUDr. Drahomír Klimeš. Všechna práva vyhrazena.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
